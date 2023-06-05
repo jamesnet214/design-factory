@@ -1,0 +1,104 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:james="clr-namespace:Jamesnet.Wpf.Controls;assembly=Jamesnet.Wpf"
+    xmlns:views="clr-namespace:DesignFactory.Icons.UI.Views">
+
+    <Style TargetType="{x:Type views:ManualContent}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type views:ManualContent}">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                        <UniformGrid Columns="10" Rows="10">
+                            <james:JamesIcon Icon="AccountMultipleOutline" Fill="#555555"/>
+                            <james:JamesIcon Icon="Apple" Fill="#555555"/>
+                            <james:JamesIcon Icon="ArrowAll" Fill="#555555"/>
+                            <james:JamesIcon Icon="ArrowDownBox" Fill="#555555"/>
+                            <james:JamesIcon Icon="ArrowLeftBold" Fill="#555555"/>
+                            <james:JamesIcon Icon="ArrowRightBold" Fill="#555555"/>
+                            <james:JamesIcon Icon="ArrowUpBold" Fill="#555555"/>
+                            <james:JamesIcon Icon="BellOutline" Fill="#555555"/>
+                            <james:JamesIcon Icon="CalendarMonth" Fill="#555555"/>
+                            <james:JamesIcon Icon="CardMultiple" Fill="#555555"/>
+                            <james:JamesIcon Icon="CardMultipleOutline" Fill="#555555"/>
+                            <james:JamesIcon Icon="Check" Fill="#555555"/>
+                            <james:JamesIcon Icon="Checkbold" Fill="#555555"/>
+                            <james:JamesIcon Icon="CheckCircle" Fill="#555555"/>
+                            <james:JamesIcon Icon="CheckDecagram" Fill="#555555"/>
+                            <james:JamesIcon Icon="ChevronDown" Fill="#555555"/>
+                            <james:JamesIcon Icon="ChevronRight" Fill="#555555"/>
+                            <james:JamesIcon Icon="Close" Fill="#555555"/>
+                            <james:JamesIcon Icon="CogRefreshOutline" Fill="#555555"/>
+                            <james:JamesIcon Icon="Comment" Fill="#555555"/>
+                            <james:JamesIcon Icon="CommentOutline" Fill="#555555"/>
+                            <james:JamesIcon Icon="ConsoleLine" Fill="#555555"/>
+                            <james:JamesIcon Icon="Contentpaste" Fill="#555555"/>
+                            <james:JamesIcon Icon="Crop" Fill="#555555"/>
+                            <james:JamesIcon Icon="CursorPointer" Fill="#555555"/>
+                            <james:JamesIcon Icon="DesktopClassic" Fill="#555555"/>
+                            <james:JamesIcon Icon="Domain" Fill="#555555"/>
+                            <james:JamesIcon Icon="DotsHorizontal" Fill="#555555"/>
+                            <james:JamesIcon Icon="DotsHorizontalCircle" Fill="#555555"/>
+                            <james:JamesIcon Icon="Email" Fill="#555555"/>
+                            <james:JamesIcon Icon="EmailOutline" Fill="#555555"/>
+                            <james:JamesIcon Icon="Facebook" Fill="#555555"/>
+                            <james:JamesIcon Icon="File" Fill="#555555"/>
+                            <james:JamesIcon Icon="FileCheck" Fill="#555555"/>
+                            <james:JamesIcon Icon="FileImage" Fill="#555555"/>
+                            <james:JamesIcon Icon="FilePdf" Fill="#555555"/>
+                            <james:JamesIcon Icon="FileWord" Fill="#555555"/>
+                            <james:JamesIcon Icon="FileZip" Fill="#555555"/>
+                            <james:JamesIcon Icon="Folder" Fill="#555555"/>
+                            <james:JamesIcon Icon="FolderOutline" Fill="#555555"/>
+                            <james:JamesIcon Icon="FolderOpen" Fill="#555555"/>
+                            <james:JamesIcon Icon="FolderOpenOutline" Fill="#555555"/>
+                            <james:JamesIcon Icon="FolderRable" Fill="#555555"/>
+                            <james:JamesIcon Icon="Google" Fill="#555555"/>
+                            <james:JamesIcon Icon="GoogleTranslate" Fill="#555555"/>
+                            <james:JamesIcon Icon="Harddisk" Fill="#555555"/>
+                            <james:JamesIcon Icon="Heart" Fill="#555555"/>
+                            <james:JamesIcon Icon="HeartOutline" Fill="#555555"/>
+                            <james:JamesIcon Icon="Image" Fill="#555555"/>
+                            <james:JamesIcon Icon="Instagram" Fill="#555555"/>
+                            <james:JamesIcon Icon="Link" Fill="#555555"/>
+                            <james:JamesIcon Icon="LinkBox" Fill="#555555"/>
+                            <james:JamesIcon Icon="Linkedin" Fill="#555555"/>
+                            <james:JamesIcon Icon="LinkVariant" Fill="#555555"/>
+                            <james:JamesIcon Icon="MapMaker" Fill="#555555"/>
+                            <james:JamesIcon Icon="MapMarkerOutline" Fill="#555555"/>
+                            <james:JamesIcon Icon="Maximize" Fill="#555555"/>
+                            <james:JamesIcon Icon="Menu" Fill="#555555"/>
+                            <james:JamesIcon Icon="Microsoft" Fill="#555555"/>
+                            <james:JamesIcon Icon="MicrosoftVisualStudio" Fill="#555555"/>
+                            <james:JamesIcon Icon="MicrosoftWindows" Fill="#555555"/>
+                            <james:JamesIcon Icon="MonitorShimmer" Fill="#555555"/>
+                            <james:JamesIcon Icon="MoveOpenPlay" Fill="#555555"/>
+                            <james:JamesIcon Icon="Netflix" Fill="#555555"/>
+                            <james:JamesIcon Icon="Palette" Fill="#555555"/>
+                            <james:JamesIcon Icon="Pin" Fill="#555555"/>
+                            <james:JamesIcon Icon="Plus" Fill="#555555"/>
+                            <james:JamesIcon Icon="Resize" Fill="#555555"/>
+                            <james:JamesIcon Icon="SelectAll" Fill="#555555"/>
+                            <james:JamesIcon Icon="Star" Fill="#555555"/>
+                            <james:JamesIcon Icon="TextBox" Fill="#555555"/>
+                            <james:JamesIcon Icon="Twitter" Fill="#555555"/>
+                            <james:JamesIcon Icon="Web" Fill="#555555"/>
+                            <james:JamesIcon Icon="WindowMinimize" Fill="#555555"/>
+                            <james:JamesIcon Icon="Youtube" Fill="#555555"/>
+                            <james:JamesIcon Icon="Home" Fill="#555555"/>
+                            <james:JamesIcon Icon="HomeOutline" Fill="#555555"/>
+                            <james:JamesIcon Icon="PlusBox" Fill="#555555"/>
+                            <james:JamesIcon Icon="Database" Fill="#555555"/>
+                            <james:JamesIcon Icon="DatabasePlus" Fill="#555555"/>
+                            <james:JamesIcon Icon="Delete" Fill="#555555"/>
+                            <james:JamesIcon Icon="Grid" Fill="#555555"/>
+                            <james:JamesIcon Image="Bmw"/>
+                        </UniformGrid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
